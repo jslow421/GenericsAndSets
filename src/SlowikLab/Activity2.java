@@ -26,6 +26,10 @@ public class Activity2 {
         employeeList.add(employee2.toString());
         employeeList.add(employee3.toString());
         
+        //for(Car car : cars){ //(Datatype variable :(in) set)
+        for(String employees : employeeList){
+            System.out.println(employees);
+        }
         
         
     }
