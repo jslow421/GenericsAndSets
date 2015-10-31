@@ -16,18 +16,18 @@ import java.util.List;
 public class Activity2 {
     public static void main(String[] args) {
         
-        List <String> employeeList = new ArrayList<String>();
+        List <Employee> employeeList = new ArrayList<Employee>();
         
         Employee employee1 = new Employee("Smith", "Jim", "123-23-0987");
         Employee employee2 = new Employee("Stone", "Jeff", "456-83-8787");
         Employee employee3 = new Employee("Slater", "Julia", "765-29-7654");
         
-        employeeList.add(employee1.toString());
-        employeeList.add(employee2.toString());
-        employeeList.add(employee3.toString());
+        employeeList.add(employee1);
+        employeeList.add(employee2);
+        employeeList.add(employee3);
         
         //for(Car car : cars){ //(Datatype variable :(in) set)
-        for(String employees : employeeList){
+        for(Employee employees : employeeList){
             System.out.println(employees);
         }
         
