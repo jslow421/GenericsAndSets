@@ -16,7 +16,7 @@ import java.util.List;
 public class Activity2 {
     public static void main(String[] args) {
         
-        List <Employee> employeeList = new ArrayList<Employee>();
+        List <Employee> employeeList = new ArrayList<>();
         
         Employee employee1 = new Employee("Smith", "Jim", "123-23-0987");
         Employee employee2 = new Employee("Stone", "Jeff", "456-83-8787");
