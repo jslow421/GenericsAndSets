@@ -37,7 +37,6 @@ public class Activity4 {
         
         for(Employee employee : employeeList){
             System.out.println(employee);
-            
         }
        
         
