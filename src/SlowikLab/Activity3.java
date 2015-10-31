@@ -29,6 +29,7 @@ public class Activity3 {
         for(String mammals : mammalList){
             System.out.println(mammals);
         }
+        
     }
     
 }
