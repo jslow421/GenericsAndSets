@@ -20,14 +20,15 @@ public class Activity3 {
         Employee employee2 = new Employee("Stone", "Jeff", "456-83-8787");
         Dog dog1 = new Dog("Woodford", 12345);
         
-        List <String> mammalList = new ArrayList<>();
+        List  mammalList = new ArrayList();
         
         mammalList.add(employee1.toString());
         mammalList.add(employee2.toString());
         mammalList.add(dog1.toString());
         
-        for(String mammals : mammalList){
-            System.out.println(mammals);
+        for (int i = 0; i < mammalList.size(); i++) {
+            String output = (String)mammalList.get(i);
+            System.out.println(output);
         }
         
     }
